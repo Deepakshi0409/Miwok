@@ -43,7 +43,7 @@ public class FamilyActivity extends AppCompatActivity {
 
         famAdapter adapter = new famAdapter(this, family);
 
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = (listview) findViewById(R.id.list);
 
         listView.setAdapter(adapter);
     }
