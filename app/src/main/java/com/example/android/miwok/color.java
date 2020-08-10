@@ -31,5 +31,5 @@ public class color {
     public int getmImageResourceId() {
         return mImageResourceId;
     }
-    
+   
 }
