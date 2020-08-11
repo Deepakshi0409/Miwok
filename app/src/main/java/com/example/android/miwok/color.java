@@ -31,5 +31,7 @@ public class color {
     public int getmImageResourceId() {
         return mImageResourceId;
     }
-   
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
 }
