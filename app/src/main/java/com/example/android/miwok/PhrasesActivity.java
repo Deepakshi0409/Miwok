@@ -27,25 +27,4 @@ public class PhrasesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
-        ArrayList<fam> family = new ArrayList<fam>();
-        family.add(new fam("father", "epe"));
-        family.add(new fam("mother", "eta"));
-        family.add(new fam("son", "angsi"));
-        family.add(new fam("daughter", "tune"));
-        family.add(new fam("older brother", "taachi"));
-        family.add(new fam("younger brother", "chalitti"));
-        family.add(new fam("older sister", "tete"));
-        family.add(new fam("younger sister", "kolliti"));
-        family.add(new fam("grandmother", "ama"));
-        family.add(new fam("grandfather", "pappa"));
-
-
-
-        famAdapter adapter = new famAdapter(this, family);
-
-        ListView listView = (ListView) findViewById(R.id.list);
-
-        listView.setAdapter(adapter);
-
     }
-}
